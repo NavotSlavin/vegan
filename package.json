@@ -1,21 +1,25 @@
 {
-  "name": "vegan-app",
-  "version": "1.0.0",
-  "description": "A vegan-app in react native",
-  "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NavotSlavin/vegan-app.git"
+  "dependencies": {
+    "expo": "~41.0.1",
+    "expo-status-bar": "~1.0.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+    "react-native-web": "~0.13.12"
   },
-  "author": "Navot, Afik, Gal",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NavotSlavin/vegan-app/issues"
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@types/react": "~16.9.35",
+    "@types/react-native": "~0.63.2",
+    "typescript": "~4.0.0"
   },
-  "homepage": "https://github.com/NavotSlavin/vegan-app#readme"
+  "private": true
 }
