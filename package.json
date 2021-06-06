@@ -1,0 +1,23 @@
+{
+  "name": "vegan-app",
+  "version": "1.0.0",
+  "description": "A vegan-app in react native",
+  "main": "index.js",
+  "dependencies": {
+    "expo-cli": "^4.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NavotSlavin/vegan-app.git"
+  },
+  "author": "Navot, Afik, Gal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NavotSlavin/vegan-app/issues"
+  },
+  "homepage": "https://github.com/NavotSlavin/vegan-app#readme"
+}
